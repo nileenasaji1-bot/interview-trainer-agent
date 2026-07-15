@@ -1,0 +1,56 @@
+ROLE: Data Analyst (Entry to Mid Level)
+
+=== TECHNICAL QUESTIONS ===
+
+Q1: What is the difference between JOIN types in SQL (INNER, LEFT, RIGHT, FULL)?
+A: INNER JOIN returns only matching rows from both tables. LEFT JOIN returns
+all rows from the left table plus matches from the right (NULL if no match).
+RIGHT JOIN is the reverse. FULL JOIN returns all rows from both tables.
+Follow-up: Write a query to find customers who have never placed an order.
+
+Q2: How do you handle missing data in a dataset?
+A: Options include: deletion (if missing data is small %), mean/median/mode
+imputation, forward/backward fill for time series, or predictive imputation
+using other features. The right choice depends on why the data is missing
+and how much is missing.
+Follow-up: What's the risk of always using mean imputation?
+
+Q3: Explain the difference between correlation and causation.
+A: Correlation means two variables move together statistically. Causation
+means one variable directly influences the other. Correlation does not
+imply causation - a third confounding variable can cause both.
+Follow-up: Give an example of a spurious correlation.
+
+Q4: What is A/B testing and how do you determine statistical significance?
+A: A/B testing compares two versions (control vs variant) to measure the
+effect of a change. Statistical significance is typically assessed using a
+p-value (commonly p < 0.05) from a hypothesis test, indicating the observed
+difference is unlikely due to random chance.
+Follow-up: What's a Type I vs Type II error in this context?
+
+Q5: What visualization would you use to show a trend over time vs a
+comparison across categories?
+A: Line charts for trends over time (continuous progression). Bar charts
+for comparing discrete categories. Avoid pie charts for more than 4-5
+categories - they're hard to compare precisely.
+Follow-up: When would a box plot be more useful than a bar chart?
+
+=== BEHAVIORAL QUESTIONS ===
+
+Q6: Tell me about a time your analysis changed a business decision.
+Tip: Focus on the business impact, not just the technical method. Quantify
+the outcome if possible (e.g. "reduced churn by X%").
+
+Q7: Describe a time you had to present complex data to a non-technical audience.
+Tip: Emphasize simplification without losing accuracy - use analogies,
+visuals, and lead with the "so what" before the methodology.
+
+Q8: Tell me about a time you found an error in your own analysis after
+sharing it.
+Tip: Show accountability and the process you used to catch and correct it,
+plus what you changed to prevent it happening again.
+
+=== GENERAL TIPS ===
+- Be ready to walk through your resume projects in SQL/Python/Excel detail.
+- Practice explaining a p-value in plain English - it comes up often.
+- Bring a portfolio project you can screen-share and explain end to end.

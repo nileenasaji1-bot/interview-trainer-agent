@@ -1,0 +1,58 @@
+ROLE: Software Engineer (Entry to Mid Level)
+
+=== TECHNICAL QUESTIONS ===
+
+Q1: What is the difference between a stack and a queue?
+A: A stack is LIFO (Last In, First Out) - the last element added is the first
+removed. Used in function call stacks, undo operations, browser history.
+A queue is FIFO (First In, First Out) - the first element added is the first
+removed. Used in task scheduling, print queues, breadth-first search.
+Follow-up: Can you implement a queue using two stacks?
+
+Q2: Explain the time complexity of common sorting algorithms.
+A: Bubble Sort: O(n^2) average and worst case.
+Merge Sort: O(n log n) in all cases, stable, requires O(n) extra space.
+Quick Sort: O(n log n) average, O(n^2) worst case, in-place.
+Follow-up: When would you choose merge sort over quick sort?
+
+Q3: What is a REST API and what makes it "RESTful"?
+A: REST (Representational State Transfer) is an architectural style for web
+services. RESTful APIs are stateless, use standard HTTP methods (GET, POST,
+PUT, DELETE), and represent resources via URLs. Responses are typically
+in JSON.
+Follow-up: What's the difference between PUT and PATCH?
+
+Q4: What is database normalization?
+A: The process of organizing data to reduce redundancy and improve integrity.
+1NF removes repeating groups, 2NF removes partial dependencies, 3NF removes
+transitive dependencies.
+Follow-up: When might you intentionally denormalize a database?
+
+Q5: Explain the difference between synchronous and asynchronous programming.
+A: Synchronous code executes sequentially, blocking until each operation
+completes. Asynchronous code allows other operations to run while waiting
+(e.g. for I/O), improving efficiency for tasks like network requests.
+Follow-up: What problem do Promises/async-await solve compared to callbacks?
+
+=== BEHAVIORAL QUESTIONS ===
+
+Q6: Tell me about a time you disagreed with a teammate's technical decision.
+Tip: Use the STAR method (Situation, Task, Action, Result). Focus on how you
+communicated respectfully, backed your position with data/reasoning, and
+what the resolution was - not on being "right."
+
+Q7: Describe a project where you had to learn a new technology quickly.
+Tip: Emphasize your learning process (docs, tutorials, asking for help),
+not just the end result. Interviewers want to see how you approach the
+unknown.
+
+Q8: Tell me about a time you missed a deadline. What happened?
+Tip: Be honest, take ownership, and focus on what you changed afterward
+(better estimation, earlier communication) rather than blaming external
+factors.
+
+=== GENERAL TIPS ===
+- Always ask clarifying questions before diving into coding problems.
+- Think out loud during technical questions - interviewers evaluate process,
+  not just the final answer.
+- Prepare 2-3 questions to ask the interviewer about the team/codebase.
